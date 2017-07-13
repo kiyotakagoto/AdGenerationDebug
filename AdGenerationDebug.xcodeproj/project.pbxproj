@@ -8,13 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		530FC95A1F17C373003576B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530FC9591F17C373003576B0 /* AppDelegate.swift */; };
-		530FC95C1F17C373003576B0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530FC95B1F17C373003576B0 /* FirstViewController.swift */; };
-		530FC95E1F17C373003576B0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530FC95D1F17C373003576B0 /* SecondViewController.swift */; };
+		530FC95C1F17C373003576B0 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530FC95B1F17C373003576B0 /* BannerViewController.swift */; };
 		530FC9611F17C373003576B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530FC95F1F17C373003576B0 /* Main.storyboard */; };
 		530FC9631F17C373003576B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530FC9621F17C373003576B0 /* Assets.xcassets */; };
 		530FC9661F17C373003576B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530FC9641F17C373003576B0 /* LaunchScreen.storyboard */; };
 		530FC9711F17C373003576B0 /* AdGenerationDebugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530FC9701F17C373003576B0 /* AdGenerationDebugTests.swift */; };
 		530FC97C1F17C373003576B0 /* AdGenerationDebugUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530FC97B1F17C373003576B0 /* AdGenerationDebugUITests.swift */; };
+		530FC98A1F17C3E9003576B0 /* ADG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530FC9891F17C3E9003576B0 /* ADG.framework */; };
+		530FC98D1F17C404003576B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530FC98C1F17C404003576B0 /* SystemConfiguration.framework */; };
+		530FC98F1F17C409003576B0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530FC98E1F17C409003576B0 /* CoreTelephony.framework */; };
+		530FC9911F17C40D003576B0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530FC9901F17C40D003576B0 /* CoreLocation.framework */; };
+		530FC9931F17C413003576B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530FC9921F17C413003576B0 /* AVFoundation.framework */; };
+		530FC9951F17C417003576B0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530FC9941F17C417003576B0 /* CoreMedia.framework */; };
+		530FC9971F17C41C003576B0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530FC9961F17C41C003576B0 /* MediaPlayer.framework */; };
+		530FC9991F17C422003576B0 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530FC9981F17C422003576B0 /* AdSupport.framework */; };
+		530FC99C1F17C565003576B0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530FC99B1F17C565003576B0 /* StoreKit.framework */; };
+		530FC99E1F17C569003576B0 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530FC99D1F17C569003576B0 /* CoreMotion.framework */; };
+		530FC9A01F17C570003576B0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530FC99F1F17C570003576B0 /* AudioToolbox.framework */; };
+		530FC9A21F17C577003576B0 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 530FC9A11F17C577003576B0 /* libxml2.tbd */; };
+		530FC9A41F17C57C003576B0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 530FC9A31F17C57C003576B0 /* libc++.tbd */; };
+		530FC9A61F17C5E0003576B0 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530FC9A51F17C5E0003576B0 /* FBAudienceNetwork.framework */; };
+		530FC9A81F17C656003576B0 /* ADGUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530FC9A71F17C656003576B0 /* ADGUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +51,7 @@
 /* Begin PBXFileReference section */
 		530FC9561F17C373003576B0 /* AdGenerationDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdGenerationDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		530FC9591F17C373003576B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		530FC95B1F17C373003576B0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		530FC95D1F17C373003576B0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		530FC95B1F17C373003576B0 /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
 		530FC9601F17C373003576B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		530FC9621F17C373003576B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		530FC9651F17C373003576B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,22 @@
 		530FC9771F17C373003576B0 /* AdGenerationDebugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdGenerationDebugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		530FC97B1F17C373003576B0 /* AdGenerationDebugUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdGenerationDebugUITests.swift; sourceTree = "<group>"; };
 		530FC97D1F17C373003576B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		530FC9891F17C3E9003576B0 /* ADG.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADG.framework; sourceTree = "<group>"; };
+		530FC98C1F17C404003576B0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		530FC98E1F17C409003576B0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		530FC9901F17C40D003576B0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		530FC9921F17C413003576B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		530FC9941F17C417003576B0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		530FC9961F17C41C003576B0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		530FC9981F17C422003576B0 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		530FC99A1F17C47F003576B0 /* AdGenerationDebug-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdGenerationDebug-Bridging-Header.h"; sourceTree = "<group>"; };
+		530FC99B1F17C565003576B0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		530FC99D1F17C569003576B0 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		530FC99F1F17C570003576B0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		530FC9A11F17C577003576B0 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		530FC9A31F17C57C003576B0 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		530FC9A51F17C5E0003576B0 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		530FC9A71F17C656003576B0 /* ADGUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADGUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +85,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530FC9A41F17C57C003576B0 /* libc++.tbd in Frameworks */,
+				530FC9A21F17C577003576B0 /* libxml2.tbd in Frameworks */,
+				530FC9A01F17C570003576B0 /* AudioToolbox.framework in Frameworks */,
+				530FC99E1F17C569003576B0 /* CoreMotion.framework in Frameworks */,
+				530FC99C1F17C565003576B0 /* StoreKit.framework in Frameworks */,
+				530FC9A61F17C5E0003576B0 /* FBAudienceNetwork.framework in Frameworks */,
+				530FC9991F17C422003576B0 /* AdSupport.framework in Frameworks */,
+				530FC9971F17C41C003576B0 /* MediaPlayer.framework in Frameworks */,
+				530FC9951F17C417003576B0 /* CoreMedia.framework in Frameworks */,
+				530FC9931F17C413003576B0 /* AVFoundation.framework in Frameworks */,
+				530FC9911F17C40D003576B0 /* CoreLocation.framework in Frameworks */,
+				530FC98F1F17C409003576B0 /* CoreTelephony.framework in Frameworks */,
+				530FC98D1F17C404003576B0 /* SystemConfiguration.framework in Frameworks */,
+				530FC98A1F17C3E9003576B0 /* ADG.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +126,7 @@
 				530FC96F1F17C373003576B0 /* AdGenerationDebugTests */,
 				530FC97A1F17C373003576B0 /* AdGenerationDebugUITests */,
 				530FC9571F17C373003576B0 /* Products */,
+				530FC98B1F17C404003576B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +143,16 @@
 		530FC9581F17C373003576B0 /* AdGenerationDebug */ = {
 			isa = PBXGroup;
 			children = (
+				530FC9A51F17C5E0003576B0 /* FBAudienceNetwork.framework */,
+				530FC9891F17C3E9003576B0 /* ADG.framework */,
 				530FC9591F17C373003576B0 /* AppDelegate.swift */,
-				530FC95B1F17C373003576B0 /* FirstViewController.swift */,
-				530FC95D1F17C373003576B0 /* SecondViewController.swift */,
+				530FC95B1F17C373003576B0 /* BannerViewController.swift */,
 				530FC95F1F17C373003576B0 /* Main.storyboard */,
 				530FC9621F17C373003576B0 /* Assets.xcassets */,
 				530FC9641F17C373003576B0 /* LaunchScreen.storyboard */,
 				530FC9671F17C373003576B0 /* Info.plist */,
+				530FC99A1F17C47F003576B0 /* AdGenerationDebug-Bridging-Header.h */,
+				530FC9A71F17C656003576B0 /* ADGUtil.swift */,
 			);
 			path = AdGenerationDebug;
 			sourceTree = "<group>";
@@ -126,6 +173,25 @@
 				530FC97D1F17C373003576B0 /* Info.plist */,
 			);
 			path = AdGenerationDebugUITests;
+			sourceTree = "<group>";
+		};
+		530FC98B1F17C404003576B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				530FC9A31F17C57C003576B0 /* libc++.tbd */,
+				530FC9A11F17C577003576B0 /* libxml2.tbd */,
+				530FC99F1F17C570003576B0 /* AudioToolbox.framework */,
+				530FC99D1F17C569003576B0 /* CoreMotion.framework */,
+				530FC99B1F17C565003576B0 /* StoreKit.framework */,
+				530FC9981F17C422003576B0 /* AdSupport.framework */,
+				530FC9961F17C41C003576B0 /* MediaPlayer.framework */,
+				530FC9941F17C417003576B0 /* CoreMedia.framework */,
+				530FC9921F17C413003576B0 /* AVFoundation.framework */,
+				530FC9901F17C40D003576B0 /* CoreLocation.framework */,
+				530FC98E1F17C409003576B0 /* CoreTelephony.framework */,
+				530FC98C1F17C404003576B0 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +262,7 @@
 				TargetAttributes = {
 					530FC9551F17C373003576B0 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6KQ8Z6N423;
 						ProvisioningStyle = Automatic;
 					};
 					530FC96B1F17C373003576B0 = {
@@ -262,9 +329,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				530FC95E1F17C373003576B0 /* SecondViewController.swift in Sources */,
+				530FC9A81F17C656003576B0 /* ADGUtil.swift in Sources */,
 				530FC95A1F17C373003576B0 /* AppDelegate.swift in Sources */,
-				530FC95C1F17C373003576B0 /* FirstViewController.swift in Sources */,
+				530FC95C1F17C373003576B0 /* BannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,10 +485,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6KQ8Z6N423;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdGenerationDebug",
+				);
 				INFOPLIST_FILE = AdGenerationDebug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kiyotakagoto.AdGenerationDebug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AdGenerationDebug/AdGenerationDebug-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -430,10 +504,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6KQ8Z6N423;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdGenerationDebug",
+				);
 				INFOPLIST_FILE = AdGenerationDebug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kiyotakagoto.AdGenerationDebug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AdGenerationDebug/AdGenerationDebug-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
